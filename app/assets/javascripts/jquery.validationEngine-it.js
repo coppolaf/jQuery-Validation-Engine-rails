@@ -31,15 +31,15 @@
                 },
                 "min": {
                     "regex": "none",
-                    "alertText": "* Valore minimo richiesto"
+                    "alertText": "* Valore minimo richiesto "
                 },
                 "max": {
                     "regex": "none",
-                    "alertText": "* Valore massimo superato"
+                    "alertText": "* Valore massimo superato "
                 },
                 "minCheckbox": {
                     "regex": "none",
-                    "alertText": "* Per favore selezionare ",
+                    "alertText": "* Per favore selezionare almeno ",
                     "alertText2": " opzioni"
                 },
                 "equals": {
