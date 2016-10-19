@@ -29,6 +29,14 @@
                     "regex": "none",
                     "alertText": "* Almeno un campo del gruppo deve essere compilato"
                 },
+                "min": {
+                    "regex": "none",
+                    "alertText": "* Valore minimo richiesto"
+                },
+                "max": {
+                    "regex": "none",
+                    "alertText": "* Valore massimo superato"
+                },
                 "minCheckbox": {
                     "regex": "none",
                     "alertText": "* Per favore selezionare ",
