@@ -60,10 +60,6 @@
                     "regex": /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i,
                     "alertText": "* Indirizzo non corretto"
                 },
-                "eu_vat": {
-                    "regex": /(?xi)^((AT)?U[0-9]{8} | (BE)?0[0-9]{9} | (BG)?[0-9]{9,10} | (HR)?[0-9]{11} | (CY)?[0-9]{8}L | (CZ)?[0-9]{8,10} | (DE)?[0-9]{9} | (DK)?[0-9]{8} | (EE)?[0-9]{9} | (EL|GR)?[0-9]{9} | ES[A-Z][0-9]{7}(?:[0-9]|[A-Z]) | (FI)?[0-9]{8} | (FR)?[0-9A-Z]{2}[0-9]{9} | (GB)?([0-9]{9}([0-9]{3})?|[A-Z]{2}[0-9]{3}) | (HU)?[0-9]{8} | (IE)?[0-9]S[0-9]{5}L | (IT)?[0-9]{11} | (LT)?([0-9]{9}|[0-9]{12}) | (LU)?[0-9]{8} | (LV)?[0-9]{11} | (MT)?[0-9]{8} | (NL)?[0-9]{9}B[0-9]{2} | (PL)?[0-9]{10} | (PT)?[0-9]{9} | (RO)?[0-9]{2,10} | (SE)?[0-9]{12} | (SI)?[0-9]{8} | (SK)?[0-9]{10})$/,
-                    "alertText": "Partita IVA Europea non corretta"
-                },
                 "integer": {
                     "regex": /^[\-\+]?\d+$/,
                     "alertText": "* Numero intero non corretto"
