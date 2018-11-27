@@ -40,9 +40,17 @@
                     "regex": "none",
                     "alertText": "* Almeno un campo del gruppo deve essere compilato"
                 },
+                "min": {
+                    "regex": "none",
+                    "alertText": "* Valore minimo richiesto "
+                },
+                "max": {
+                    "regex": "none",
+                    "alertText": "* Valore massimo superato "
+                },
                 "minCheckbox": {
                     "regex": "none",
-                    "alertText": "* Per favore selezionare ",
+                    "alertText": "* Per favore selezionare almeno ",
                     "alertText2": " opzioni"
                 },
                 "equals": {
@@ -126,7 +134,7 @@
                     "alertText": "* Ammessa 1 sola lettera all'inizio del campo"
                 },
                 "ipv4": {
-                	"regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
+                  	"regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
                     "alertText": "* IP non corretto"
                 },
                 "url": {
