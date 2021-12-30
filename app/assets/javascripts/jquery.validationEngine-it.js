@@ -130,7 +130,7 @@
                     "alertText": "* Ammesse le lettere solo all'inizio del campo"
                 },
                 "serial_numberSp": {
-                    "regex": /^[a-zA-Z]1[0-9]*$/,
+                    "regex": /^[a-zA-Z0-9][0-9]*$/,
                     "alertText": "* Ammessa 1 sola lettera all'inizio del campo"
                 },
                 "ipv4": {
@@ -148,6 +148,10 @@
 				        "onlyLetter": {
                     "regex": /^[a-zA-Z\ \']+$/,
                     "alertText": "* Solo lettere"
+                },
+                "onlyLetterAccentSp":{
+                    "regex": /^[a-z\u00C0-\u017F\ ]+$/i,
+                    "alertText": "* Solo lettere (è possibile inserire lettere accentate)"
                 },
                 "onlyNumberSp": {
                     "regex": /^[0-9\ ]+$/,
