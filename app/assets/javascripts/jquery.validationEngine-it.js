@@ -174,8 +174,12 @@
                     "alertText": "* Occorre inserire nome e cognome"
                 },
                 "ItalianFiscalCode": {
-                    "regex": /^([A-Z]{6}[0-9LMNPQRSTUV]{2}[ABCDEHLMPRST]{1}[0-9LMNPQRSTUV]{2}[A-Z]{1}[0-9LMNPQRSTUV]{3}[A-Z]{1})$|([0-9]{11})$/,
+                    "regex": /^([A-Za-z]{6}[0-9LMNPQRSTUVlmnpqrstuv]{2}[ABCDEHLMPRSTabcdehlmprst]{1}[0-9LMNPQRSTUVlmnpqrstuv]{2}[A-Za-z]{1}[0-9LMNPQRSTUVlmnpqrstuv]{3}[A-Za-z]{1})$/,
                     "alertText": "* Formato non valido per il Codice Fiscale"
+                },
+                "ItalianVAT": {
+                    "regex": /^([0-9]{11})$/,
+                    "alertText": "* Formato non valido per la Partita IVA"
                 },
                 "ajaxUserCall": {
                     "file": "ajaxValidateFieldName",
