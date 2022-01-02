@@ -173,9 +173,9 @@
                     "nname": "validate2fields",
                     "alertText": "* Occorre inserire nome e cognome"
                 },
-                "noSpecialCharacters": {
-                    "regex": /^[0-9a-zA-Z]+$/,
-                    "alertText": "* Caratteri speciali non permessi"
+                "ItalianFiscalCode": {
+                    "regex": /^([A-Z]{6}[0-9LMNPQRSTUV]{2}[ABCDEHLMPRST]{1}[0-9LMNPQRSTUV]{2}[A-Z]{1}[0-9LMNPQRSTUV]{3}[A-Z]{1})$|([0-9]{11})$/,
+                    "alertText": "* Formato non valido per il Codice Fiscale"
                 },
                 "ajaxUserCall": {
                     "file": "ajaxValidateFieldName",
