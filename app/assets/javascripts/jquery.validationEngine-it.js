@@ -113,7 +113,7 @@
                 },
                 "date_dd-mm-yyyy_minus": {
                   "regex": /^\d{2}\-\d{2}\-\d{4}$/,
-                  "alertText": "* Data non corretta, re-inserire secondo formato gg/mm/AAAA"
+                  "alertText": "* Data non corretta, re-inserire secondo formato gg-mm-AAAA"
                 },
                 "dateRange": {
                     "regex": "none",
