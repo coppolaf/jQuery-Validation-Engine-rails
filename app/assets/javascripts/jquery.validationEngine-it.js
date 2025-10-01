@@ -85,6 +85,11 @@
                     "regex": /^[\-\+]?(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)$/,
                     "alertText": "* Numero decimale non corretto"
                 },
+                "number_w_dot_or_comma":{
+                  // Number, and floating decimal with dot or comma
+                  "regex": /^[-+]?[0-9]+([\,|\.][0-9]+)?$/,
+                  "alertText": "* Numero decimale non corretto"
+                },
                 "min": {
                     "regex": "none",
                     "alertText": "* Valore minimo è  "
