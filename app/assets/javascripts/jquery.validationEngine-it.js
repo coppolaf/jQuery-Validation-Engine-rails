@@ -90,6 +90,11 @@
                   "regex": /^[-+]?[0-9]+([\,|\.][0-9]+)?$/,
                   "alertText": "* Numero decimale non corretto"
                 },
+                "number_w_comma":{
+                  // Number, and floating decimal with dot or comma
+                  "regex": /^[-+]?[0-9]+([\,][0-9]+)?$/,
+                  "alertText": "* Numero decimale non corretto"
+                },
                 "min": {
                     "regex": "none",
                     "alertText": "* Valore minimo è  "
